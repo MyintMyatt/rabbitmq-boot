@@ -1,0 +1,10 @@
+### Spring Boot with RabbitMQ
+
+**Run rabbitmq**
+```dockerfile
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management
+```
+
+[http://localhost:15672/](http://localhost:15672/) <br/>
+username: guest <br/>
+password: guest
